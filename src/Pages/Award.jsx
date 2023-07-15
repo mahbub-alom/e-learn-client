@@ -11,7 +11,7 @@ const Award = () => {
 
   return (
     <div className="p-24" ref={ref}>
-      <div className="flex justify-around flex-col md:flex-row">
+      <div className="flex justify-around flex-col md:flex-row gap-4">
         <div className="flex items-center gap-3">
           <FaAward className="h-16 w-16 rounded-full bg-gradient-to-r from-gray-100 to-gray-100 p-2"></FaAward>
           <div>
